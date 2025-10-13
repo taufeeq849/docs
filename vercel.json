@@ -1,7 +1,0 @@
-{
-  "buildCommand": "pnpm install -g mintlify && mintlify build",
-  "outputDirectory": "_site",
-  "installCommand": "pnpm install",
-  "framework": null,
-  "devCommand": "mintlify dev"
-}

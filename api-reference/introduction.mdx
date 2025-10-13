@@ -51,11 +51,7 @@ Use the right API for your use case, and you'll be able to extend, customize, an
 
 ### Why do I get a 401 'Non permissible resource' error when using Platform API tokens?
 
-Platform APIs cannot access accounts or users created via the Trackmatic UI, or by other API keys. They can only access accounts, users, and other objects created by the same API key, or objects explicitly permitted to that API key. If you need to grant a Platform App access to an object (such as an Account) that it did not create, you can manually add the permission using the following command in a Rails console (replace the numbers with the correct IDs):
-
-```ruby
-PlatformAppPermissible.create!(platform_app: PlatformApp.find(1), permissible: Account.find(1))
-```
+Platform APIs cannot access accounts or users created via the Trackmatic UI, or by other API keys. They can only access accounts, users, and other objects created by the same API key, or objects explicitly permitted to that API key. If you need to grant a Platform App access to an object (such as an Account) that it did not create, please contact your system administrator.
 
 ### What should I do if the API documentation appears outdated?
 

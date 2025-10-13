@@ -27,14 +27,6 @@
     }
   },
   "theme": "mint",
-  "api": {
-    "baseUrl": "https://chat.ordermaticai.com",
-    "auth": {
-      "method": "key",
-      "name": "api-access-token",
-      "inputPrefix": ""
-    }
-  },
   "navigation": {
     "anchors": [
       {
@@ -54,62 +46,34 @@
             "description": "APIs for managing application aspects of Trackmatic",
             "includeTags": [
               "Agents",
-              "Automation Rule",
+              "Contacts",
+              "Conversations",
+              "Conversation Assignments",
+              "Messages"
+            ],
+            "excludeTags": [
+              "Account",
+              "Audit Logs",
               "Account AgentBots",
               "Canned Responses",
-              "Contact Labels",
-              "Contacts",
-              "Conversation Assignments",
-              "Conversation Labels",
-              "Conversations",
               "Custom Attributes",
-              "Custom Filters",
+              "Contact Labels",
+              "Automation Rule",
               "Help Center",
               "Inboxes",
               "Integrations",
-              "Messages",
               "Profile",
-              "Reports",
               "Teams",
+              "Custom Filters",
               "Webhooks"
             ],
-            "openapi": "https://raw.githubusercontent.com/chatwoot/chatwoot/develop/swagger/tag_groups/application_swagger.json"
-          },
-          {
-            "group": "Platform APIs",
-            "description": "APIs for managing platform aspects of Trackmatic",
-            "includeTags": [
-              "Accounts",
-              "Account Users",
-              "AgentBots",
-              "Users"
-            ],
-            "openapi": "https://raw.githubusercontent.com/chatwoot/chatwoot/develop/swagger/tag_groups/platform_swagger.json"
-          },
-          {
-            "group": "Client APIs",
-            "description": "APIs for client applications",
-            "includeTags": [
-              "Contacts API",
-              "Conversations API",
-              "Messages API"
-            ],
-            "openapi": "https://raw.githubusercontent.com/chatwoot/chatwoot/develop/swagger/tag_groups/client_swagger.json"
-          },
-          {
-            "group": "Other APIs",
-            "description": "Additional Trackmatic APIs",
-            "includeTags": [
-              "CSAT Survey Page"
-            ],
-            "openapi": "https://raw.githubusercontent.com/chatwoot/chatwoot/develop/swagger/tag_groups/other_swagger.json"
+            "openapi": "api-reference/openapi/application_swagger.json"
           }
         ]
       }
     ]
   },
   "footer": {
-    "socials": {
-    }
+    "socials": {}
   }
 }
