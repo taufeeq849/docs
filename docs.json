@@ -44,29 +44,6 @@
           {
             "group": "Application APIs",
             "description": "APIs for managing application aspects of Trackmatic",
-            "includeTags": [
-              "Agents",
-              "Contacts",
-              "Conversations",
-              "Conversation Assignments",
-              "Messages"
-            ],
-            "excludeTags": [
-              "Account",
-              "Audit Logs",
-              "Account AgentBots",
-              "Canned Responses",
-              "Custom Attributes",
-              "Contact Labels",
-              "Automation Rule",
-              "Help Center",
-              "Inboxes",
-              "Integrations",
-              "Profile",
-              "Teams",
-              "Custom Filters",
-              "Webhooks"
-            ],
             "openapi": "api-reference/openapi/application_swagger.json"
           }
         ]
